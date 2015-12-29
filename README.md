@@ -12,3 +12,5 @@ you can parse .htpasswd files and control users .
 <code>generatePw($pw)</code> generate crypted password <br>
 <code>save()</code> save changes. needed after <code>addUser , updateUser , deleteUser </code> <br>
 <pre> contact me @ telegram ( <a href="http://telegram.me/pp2007ws">@pp2007ws</a>)</pre>
+<br/>
+<a href="https://github.com/Amhr/htaccess-vip-file-download">Sample Project using this library </a>
