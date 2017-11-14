@@ -15,7 +15,8 @@ class htpasswd{
         if(count($users) > 1 || strlen($users[0]) > 3){
             foreach($users as $usr) {
                 $user = explode(":",$usr);
-                $this->users[$user[0]] = $user[1];
+                if (count($user)==2)
+                  $this->users[$user[0]] = $user[1];
             }
         }
     }
